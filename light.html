@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Light Bulb</title>
+    <style>
+         body{
+            text-align: center;
+            background: blanchedalmond;
+        }
+        button{
+           padding: 10px;
+           margin: 10px;
+           border-radius: 5px;
+           background-color: gray;
+           color: white;
+           font-size: 20px;
+        }
+        button:hover{
+            background-color: red;
+            color: black;
+        }
+        img{
+            height: 500px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1> JavaScript can change HTML Attribute values.</h1>
+
+<img id="bulb" src="img/pic_bulboff.gif" alt="Of ligth"> <br>
+
+<button type="button" onclick="document.getElementById('bulb').src='img/pic_bulbon.gif'"> Turn On</button>
+
+<button type="button" onclick="document.getElementById('bulb').src='img/pic_bulboff.gif'">Turn OFF</button>
+
+</body>
+
+
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First JavaScript Program</title>
+    <style>
+        body{
+            text-align: center;
+            background: blanchedalmond;
+        }
+        button{
+           padding: 10px;
+           margin: 10px;
+           border-radius: 5px;
+           background-color: gray;
+           color: white;
+           font-size: 20px;
+        }
+        button:hover{
+            background-color: red;
+            color: black;
+        }
+      
+    </style>
+</head>
+<body>
+    <h1>What can JavaScript do ?</h1>
+
+    <p id="demo">JavaScript can change HTML content.</p>
+
+    <div>
+      <button type="button" onclick='document.getElementById("demo").innerHTML= "Hello JavaScript!"'>Click me</button>
+      <button type="button" onclick='document.getElementById("demo").innerHTML= "What can JavaScript do ?"'>Get Back</button>
+    </div>
+</body>
+</html>
